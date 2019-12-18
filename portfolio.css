@@ -1,0 +1,71 @@
+
+/*
+body
+{
+    background: url("IMAGE/background.jpg") fixed no-repeat;
+
+}
+*/
+
+#monCercle
+{
+    border: 0.5em solid black;
+    border-radius: 50%;
+    width: 40em;
+    height: 50em;
+    position: absolute;
+    margin:auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: gray;
+}
+#miniature
+{
+    background: url("IMAGE/adrien.jpg");
+    border-radius: 20%;
+    border: 0.09em solid red;
+    width: 9em;
+    height: 12em;
+    position: absolute;
+    margin:auto;
+    top: 0;
+    right: 0;
+    bottom: 15em;
+    left: 20em;
+    transform: rotate(3deg);
+}
+
+.facebook
+{
+    background: url("IMAGE/facebook.png") no-repeat;
+    margin-top: 65%;
+    margin-left: 20em;
+    width: 2.8em;
+    height: 2.8em;
+    display: flex;
+}
+
+.linkedin
+{
+    background: url("IMAGE/linkedin.jpg") no-repeat;
+    margin-top: 65%;
+    width: 2.8em;
+    height: 2.8em;
+    margin-right: 10em;
+    display: flex;
+}
+
+#imageClique
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+
