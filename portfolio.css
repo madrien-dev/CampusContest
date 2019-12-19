@@ -1,17 +1,7 @@
-
 /*
-body
+#monCarrer
 {
-    background: url("IMAGE/background.jpg") fixed no-repeat;
-
-}
-*/
-
-#monCercle
-{
-    border: 0.5em solid black;
-    border-radius: 50%;
-    width: 40em;
+    width: 80em;
     height: 50em;
     position: absolute;
     margin:auto;
@@ -19,29 +9,17 @@ body
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: gray;
 }
+*/
 #miniature
 {
-    background: url("IMAGE/adrien.jpg");
-    border-radius: 20%;
-    border: 0.09em solid red;
-    width: 9em;
-    height: 12em;
-    position: absolute;
-    margin:auto;
-    top: 0;
-    right: 0;
-    bottom: 15em;
-    left: 20em;
-    transform: rotate(3deg);
+    text-align: center;
 }
 
 .facebook
 {
     background: url("IMAGE/facebook.png") no-repeat;
-    margin-top: 65%;
-    margin-left: 20em;
+    margin-left: 1em;
     width: 2.8em;
     height: 2.8em;
     display: flex;
@@ -50,22 +28,62 @@ body
 .linkedin
 {
     background: url("IMAGE/linkedin.jpg") no-repeat;
-    margin-top: 65%;
     width: 2.8em;
     height: 2.8em;
-    margin-right: 10em;
+    margin-right: 1em;
     display: flex;
 }
 
 #imageClique
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
-
+    display: flex;
 }
 
+#contact
+{
+    padding-left: 2%;
+    color: black;
+}
 
+#monParcours
+{
+    padding-left: 2%;
+    color: black; 
+}
 
+a
+{
+    text-decoration: none;
+}
 
+.text
+{
+    font-size: 2em;
+    text-align: center;
+    color: violet;
+}
 
+.colone1
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.colone2
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.colone3
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h1, h4, p
+{
+    text-align: center;
+}
