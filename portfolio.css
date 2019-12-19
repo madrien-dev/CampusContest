@@ -1,89 +1,64 @@
-/*
-#monCarrer
+img
 {
-    width: 80em;
+    width: 100%;
     height: 50em;
-    position: absolute;
-    margin:auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
 }
-*/
-#miniature
+body
 {
-    text-align: center;
+    margin: 0em;
+    padding: 0em;
 }
 
-.facebook
+header
 {
-    background: url("IMAGE/facebook.png") no-repeat;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    background-color: gray;
+    height: 5em;
+}
+#lien
+{
+    padding-top: 1.5em;
+}
+
+.lien
+{
+    float: right;
     margin-left: 1em;
-    width: 2.8em;
-    height: 2.8em;
-    display: flex;
-}
-
-.linkedin
-{
-    background: url("IMAGE/linkedin.jpg") no-repeat;
-    width: 2.8em;
-    height: 2.8em;
     margin-right: 1em;
-    display: flex;
+}
+.lien2
+{
+    float: right;
 }
 
-#imageClique
+article
 {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    display: flex;
+    border: solid;
+    float: center;
+
 }
 
-#contact
+#droite
 {
-    padding-left: 2%;
-    color: black;
+    border: solid;
+    display: inline-block;
 }
+#gauche
+{
+    display: inline-block;
+    border: solid;
+    float: right;
+}
+.taille
+{
+    height: 10%;
+}
+@media all and (max-width:1024){
 
-#monParcours
-{
-    padding-left: 2%;
-    color: black; 
-}
-
-a
-{
-    text-decoration: none;
-}
-
-.text
-{
-    font-size: 2em;
-    text-align: center;
-    color: violet;
-}
-
-.colone1
-{
-    margin-left: 2em;
-    margin-right: 2em;
-}
-
-.colone2
-{
-    margin-left: 2em;
-    margin-right: 2em;
-}
-.colone3
-{
-    margin-left: 2em;
-    margin-right: 2em;
-}
-
-h1, h4, p
-{
-    text-align: center;
+    img
+    {
+        width: 100%;
+        height: 30em;
+    }
 }
